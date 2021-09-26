@@ -128,6 +128,12 @@ padding: none;
     font-weight: 600;
     color: blue;
 }
+a#forget:hover{
+    color: #6666ff;
+}
+a#newacc:hover{
+    color: #6666ff;
+}
 
 
 @media (max-width: 800px){
