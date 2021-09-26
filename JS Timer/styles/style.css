@@ -1,0 +1,21 @@
+html{
+	overflow: hidden;
+}
+#main-container{
+	height: 100vh;
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#row1{
+	padding-top: 45vh;
+	display: flex;
+ 	justify-content: center;
+}
+#row1 h1{
+	font-family: 'Roboto', sans-serif;
+}
+#time{
+	font-size: 1.5em;
+	padding-bottom: 45vh;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Login</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Oswald&family=Raleway:wght@200;300;400&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+	</style>
+<body>
+<div class="wrapper">
+<div class="container">
+	<div class="imgdiv">
+		<img src="/images/icon.png" id="imgic">
+	</div>
+	<div class="login">
+
+		<h1>
+			Login Page
+		</h1>
+		<p>Login to your  account.<br> </p>
+		<form class="loginform" autocomplete="off" method="POST">
+			<input type="email" id="email" name="email" placeholder="Email" required>
+			<br>
+			<input type="password" id="password" name="password" placeholder="Password" required><br>
+			<button class="btnsub">Login</button><br>
+			<a href="#" id="forgot">Forgot Password?</a><br>
+			<label for="keepsignin" id="keep">Remember me the next time I Login.</label>
+			<input type="checkbox" id="keepsigin" name="keepsignin"><br>
+		</form>
+
+	</div>
+	<div class="signup">
+		<p>Don't have an account? <a href="#" id="newacc">Click here to register.</a></p>
+	</div>
+</div>
+</div>
+</body>
+</html>
