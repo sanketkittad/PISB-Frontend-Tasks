@@ -164,3 +164,8 @@ a#newacc:hover{
         font-size: 5em;
     }
 }
+@media (min-width: 1430px){
+    .container{
+        width: 415px;
+    }
+}
