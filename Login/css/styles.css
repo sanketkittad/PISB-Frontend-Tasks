@@ -22,7 +22,8 @@ body{
     flex-flow: column;
     margin-top: auto;
     margin-bottom: auto;
-    width: 350px;
+    width: 27vw;
+    max-width: 450px;
 }
 .imgdiv{
     display: flex;
@@ -164,8 +165,4 @@ a#newacc:hover{
         font-size: 5em;
     }
 }
-@media (min-width: 1430px){
-    .container{
-        width: 415px;
-    }
-}
+
