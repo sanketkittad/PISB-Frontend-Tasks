@@ -22,8 +22,8 @@ body{
     flex-flow: column;
     margin-top: auto;
     margin-bottom: auto;
-    width: 27vw;
-    max-width: 450px;
+    width: 350px;
+
 }
 .imgdiv{
     display: flex;
@@ -166,3 +166,8 @@ a#newacc:hover{
     }
 }
 
+@media (min-width: 1430px){
+    .container{
+        width: 415px;
+    }
+}
